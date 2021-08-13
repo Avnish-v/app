@@ -1,0 +1,183 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.navbar li {
+	font-family: "Bebas Neue", cursive;
+	font-family: "Tourney", cursive;
+	font-size: 16px;
+	padding: 9px 113px;
+	text-decoration: none;
+	list-style: none;
+}
+.navbar {
+	flex-wrap: wrap;
+	z-index: 6;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(235 212 216 / 81%);
+}
+.bg {
+	background-image: url("https://st4.depositphotos.com/4544433/20641/v/600/depositphotos_206411764-stock-video-the-side-of-the-bright.jpg");
+	margin: 0px;
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	/* width:100vw; */
+	background-position: inherit;
+}
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	border: 2px solid black;
+	border-radius: 20px;
+	background: black;
+	color: rgb(241, 240, 240);
+	transition: 1s;
+	font-size: 18px;
+}
+.form {
+	flex-wrap: wrap;
+	box-shadow: -3px -6px black;
+	border: 2px solid black;
+	border-radius: 23px;
+	align-items: center;
+	margin: auto;
+	margin-top: 119px;
+	width: 595px;
+	height: 357px;
+	align-content: center;
+}
+
+.form h3 {
+	flex-wrap: wrap;
+	font-weight: bold;
+	color: rgb(243, 200, 243);
+	border-style: double;
+	font-size: 18px;
+	margin: 20px 215px;
+	background-color: black;
+}
+.form i {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0px 23px;
+	margin: auto;
+}
+.form input {
+	border-radius: 23px;
+	align-items: center;
+	align-content: center;
+	margin: 2px 191px;
+	padding: 3px;
+	border: 2px solid black;
+	outline: none;
+}
+.form input:hover {
+	background: rgb(140, 231, 238);
+	padding: 4px;
+}
+.btn {
+	flex-wrap: wrap;
+	width: 93px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 20px;
+	margin: 13px 244px;
+	padding: 2px;
+}
+.btn:hover {
+	background: rgb(140, 231, 238);
+	padding: 4px;
+}
+.btn1 {
+	flex-wrap: wrap;
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+	margin-left: 240px;
+	width: 100px;
+	height: 24px;
+}
+.btn1 a {
+	color: white;
+	text-decoration: none;
+	align-items: center;
+
+	padding: 5px;
+}
+.btn1 a:hover {
+	padding: 4px;
+	height: 25px;
+	width: 101px;
+}
+
+.service {
+	flex-wrap: wrap;
+	z-index: 3;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	margin-top: 70px;
+	border: 2px solid rgb(245, 238, 238);
+	justify-content: center;
+	align-content: center;
+	color: black;
+	font-weight: bold;
+}
+.btn-log {
+	flex-wrap: wrap;
+
+	width: 70px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 20px;
+	margin: 13px 244px;
+	padding: 2px;
+}
+.btn-log:hover {
+	background: rgb(140, 231, 238);
+	padding: 4px;
+}
+.log {
+	flex-wrap: wrap;
+	border-style: double;
+	font-size: 18px;
+	margin: 20px 215px;
+	justify-content: center;
+	width: 90px;
+}
+.btn2 {
+	flex-wrap: wrap;
+	color: rgb(26, 25, 25);
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-left: 240px;
+	width: 126px;
+	height: 33px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	outline: none;
+	text-decoration: none;
+	justify-content: center;
+}
+.btn2 a:hover {
+	padding: 4px;
+	height: 25px;
+	width: 101px;
+}
